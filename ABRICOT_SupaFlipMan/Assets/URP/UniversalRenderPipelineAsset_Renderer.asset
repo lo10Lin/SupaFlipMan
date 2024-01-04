@@ -1,0 +1,234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8955644681782931462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd37d03d18ee9584d881763c34816b35, type: 3}
+  m_Name: Poisonous 1
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  _outlineResources: {fileID: 11400000, guid: 231d88937a104094b8e4e0fdb8d2e77b, type: 2}
+  _outlineLayers: {fileID: 0}
+  _outlineSettings:
+    _outlineSettings: {fileID: 0}
+    _outlineColor: {r: 0, g: 0.5943396, b: 0.016315239, a: 1}
+    _outlineWidth: 10
+    _outlineIntensity: 2
+    _outlineAlphaCutoff: 0.9
+    _outlineMode: 2
+    _filterMode: 1
+    _layerMask:
+      serializedVersion: 2
+      m_Bits: 1073741824
+    _renderingLayerMask: 1
+  _renderPassEvent: 500
+  _shaderPassNames: []
+--- !u!114 &-7163799198170030276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd37d03d18ee9584d881763c34816b35, type: 3}
+  m_Name: Outline Ennemis
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  _outlineResources: {fileID: 11400000, guid: 231d88937a104094b8e4e0fdb8d2e77b, type: 2}
+  _outlineLayers: {fileID: 0}
+  _outlineSettings:
+    _outlineSettings: {fileID: 0}
+    _outlineColor: {r: 0.4339623, g: 0, b: 0, a: 1}
+    _outlineWidth: 5
+    _outlineIntensity: 2
+    _outlineAlphaCutoff: 1
+    _outlineMode: 2
+    _filterMode: 1
+    _layerMask:
+      serializedVersion: 2
+      m_Bits: 136314880
+    _renderingLayerMask: 1
+  _renderPassEvent: 500
+  _shaderPassNames: []
+--- !u!114 &-4306520174057132432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd37d03d18ee9584d881763c34816b35, type: 3}
+  m_Name: Player Outline
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  _outlineResources: {fileID: 11400000, guid: 231d88937a104094b8e4e0fdb8d2e77b, type: 2}
+  _outlineLayers: {fileID: 0}
+  _outlineSettings:
+    _outlineSettings: {fileID: 0}
+    _outlineColor: {r: 0, g: 0, b: 0, a: 1}
+    _outlineWidth: 5
+    _outlineIntensity: 25.5
+    _outlineAlphaCutoff: 1
+    _outlineMode: 2
+    _filterMode: 1
+    _layerMask:
+      serializedVersion: 2
+      m_Bits: 8
+    _renderingLayerMask: 4493
+  _renderPassEvent: 500
+  _shaderPassNames: []
+--- !u!114 &-2563829687987086159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd37d03d18ee9584d881763c34816b35, type: 3}
+  m_Name: Poisonous 2
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  _outlineResources: {fileID: 11400000, guid: 231d88937a104094b8e4e0fdb8d2e77b, type: 2}
+  _outlineLayers: {fileID: 0}
+  _outlineSettings:
+    _outlineSettings: {fileID: 0}
+    _outlineColor: {r: 0, g: 0, b: 0, a: 1}
+    _outlineWidth: 3
+    _outlineIntensity: 2
+    _outlineAlphaCutoff: 1
+    _outlineMode: 2
+    _filterMode: 1
+    _layerMask:
+      serializedVersion: 2
+      m_Bits: 262144
+    _renderingLayerMask: 1
+  _renderPassEvent: 500
+  _shaderPassNames: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
+  m_Name: UniversalRenderPipelineAsset_Renderer
+  m_EditorClassIdentifier: 
+  m_RendererFeatures:
+  - {fileID: -2563829687987086159}
+  - {fileID: -8955644681782931462}
+  - {fileID: 429448094401444921}
+  - {fileID: -4306520174057132432}
+  - {fileID: -7163799198170030276}
+  - {fileID: 6728508450750115043}
+  m_RendererFeatureMap: b1dced867b726bdcfa4fb6679c28b783393c443cc4b4f505706e45f7b72a3cc43cdfd8ae9512959ce3ac2c6bc976605d
+  postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
+  xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
+  shaders:
+    blitPS: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+    copyDepthPS: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    screenSpaceShadowPS: {fileID: 4800000, guid: 0f854b35a0cf61a429bd5dcfea30eddd, type: 3}
+    samplingPS: {fileID: 4800000, guid: 04c410c9937594faa893a11dceb85f7e, type: 3}
+    tileDepthInfoPS: {fileID: 0}
+    tileDeferredPS: {fileID: 0}
+    stencilDeferredPS: {fileID: 4800000, guid: e9155b26e1bc55942a41e518703fe304, type: 3}
+    fallbackErrorPS: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
+    materialErrorPS: {fileID: 4800000, guid: 5fd9a8feb75a4b5894c241777f519d4e, type: 3}
+  m_OpaqueLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_TransparentLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_DefaultStencilState:
+    overrideStencilState: 0
+    stencilReference: 11
+    stencilCompareFunction: 8
+    passOperation: 2
+    failOperation: 0
+    zFailOperation: 5
+  m_ShadowTransparentReceive: 1
+  m_RenderingMode: 0
+  m_AccurateGbufferNormals: 0
+--- !u!114 &429448094401444921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd37d03d18ee9584d881763c34816b35, type: 3}
+  m_Name: Outline Objects
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  _outlineResources: {fileID: 11400000, guid: 231d88937a104094b8e4e0fdb8d2e77b, type: 2}
+  _outlineLayers: {fileID: 0}
+  _outlineSettings:
+    _outlineSettings: {fileID: 0}
+    _outlineColor: {r: 0, g: 0, b: 0, a: 1}
+    _outlineWidth: 5
+    _outlineIntensity: 2
+    _outlineAlphaCutoff: 0.9
+    _outlineMode: 2
+    _filterMode: 1
+    _layerMask:
+      serializedVersion: 2
+      m_Bits: 2147483648
+    _renderingLayerMask: 1
+  _renderPassEvent: 500
+  _shaderPassNames: []
+--- !u!114 &6728508450750115043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
+  m_Name: Scene Shading
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    passTag: Scene Shading
+    Event: 400
+    filterSettings:
+      RenderQueueType: 0
+      LayerMask:
+        serializedVersion: 2
+        m_Bits: 4294967295
+      PassNames: []
+    overrideMaterial: {fileID: 2100000, guid: 87cb1360c2a60c54f95b8195d1116e78, type: 2}
+    overrideMaterialPassIndex: 0
+    overrideDepthState: 0
+    depthCompareFunction: 4
+    enableWrite: 1
+    stencilSettings:
+      overrideStencilState: 0
+      stencilReference: 0
+      stencilCompareFunction: 8
+      passOperation: 0
+      failOperation: 0
+      zFailOperation: 0
+    cameraSettings:
+      overrideCamera: 0
+      restoreCamera: 1
+      offset: {x: 0, y: 0, z: 0, w: 0}
+      cameraFieldOfView: 60

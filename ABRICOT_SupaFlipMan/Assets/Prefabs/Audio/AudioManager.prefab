@@ -1,0 +1,543 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7683188067362879469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7683188067362879465}
+  - component: {fileID: 7683188067362879470}
+  m_Layer: 27
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7683188067362879465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7683188067362879469}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.904837, y: 5.704801, z: -3.4607491}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7683188067362879470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7683188067362879469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dad7b64d74bfe5443a3a3be19325084c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - Name: 0 AcidPuddle
+    Clip: {fileID: 8300000, guid: 9a696b4bcc39f84409979b863f10da04, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 1
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 1 SlideReady
+    Clip: {fileID: 8300000, guid: 72ae75c26e55d8748ab3a0b7033be858, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 2 DoorClose
+    Clip: {fileID: 8300000, guid: a64a4ff9295565d4c89bba9728d407ea, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 3 DoorOpen
+    Clip: {fileID: 8300000, guid: ce96625c464b3c24c913724d5c1122ee, type: 3}
+    Volume: 0.442
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 4 Explosion
+    Clip: {fileID: 8300000, guid: 29f23aa0964d0f94d9b47f8d030c773f, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 5 Flip
+    Clip: {fileID: 8300000, guid: 6818da14aab67fb44a5aa713e050e6d9, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 6 ImpactHook
+    Clip: {fileID: 8300000, guid: 9ecf8269d91a1944ab42495bac79734a, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 7 ImpactJab1
+    Clip: {fileID: 8300000, guid: e9348190bd85cc24fa348171598a49a4, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 8 ImpactJab2
+    Clip: {fileID: 8300000, guid: 0c6bd951414725647b046a7fc754aeff, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 9 ImpactJab3
+    Clip: {fileID: 8300000, guid: 309c113c6e1db214f95cf95620c5f7f5, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 10 Jab1
+    Clip: {fileID: 8300000, guid: a80d9973882892143b09e8b52bbd897f, type: 3}
+    Volume: 1
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 11 Jab2
+    Clip: {fileID: 8300000, guid: 04b33a33eda005645b4597da786c0165, type: 3}
+    Volume: 0.95
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 12 Jab3
+    Clip: {fileID: 8300000, guid: a80cbd24b30c1b045a95a9b441354708, type: 3}
+    Volume: 0.9
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 13 Run1
+    Clip: {fileID: 8300000, guid: ba6d5fce5332adc498b7c97150e47beb, type: 3}
+    Volume: 0.95
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 14 Run2
+    Clip: {fileID: 8300000, guid: f9db7eb827a00fd4197e3d3d9db09ee3, type: 3}
+    Volume: 0.9
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 15 Run3
+    Clip: {fileID: 8300000, guid: 7706d63001ae7a64296c1e4d4a333763, type: 3}
+    Volume: 0.85
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 16 Run4
+    Clip: {fileID: 8300000, guid: 65f96fddd2a232d45b69ae5360085db8, type: 3}
+    Volume: 0.8
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 17 Slide
+    Clip: {fileID: 8300000, guid: 1f90a038d0d22ff41976054a77abf8b6, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 18 DeathEnemies
+    Clip: {fileID: 8300000, guid: 56a34753fa0cf054aafd0109158ffe11, type: 3}
+    Volume: 0.993
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 19 DaggerImpact
+    Clip: {fileID: 8300000, guid: bc6c1abfd8d60744f8fcc6c0cd04c844, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 20 DaggerThrow
+    Clip: {fileID: 8300000, guid: 1b4d21937c9093549b2d36e22d2ed18f, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: '21 KatanaImpact '
+    Clip: {fileID: 8300000, guid: 29dc56551d02836419fbfcc73e968ec5, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 22 KatanaReflect
+    Clip: {fileID: 8300000, guid: 12d06bde77971c24fa56172a9934e590, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: '23 KatanaSwing 1 '
+    Clip: {fileID: 8300000, guid: 19d989dda2053994d9fafe50acdd669e, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 24 KatanaSwing 2
+    Clip: {fileID: 8300000, guid: 7f6f2ec07ed5ebe4c9d9f5be7b1d85fe, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 25 LetskeRun1
+    Clip: {fileID: 8300000, guid: cfbc16833e2f30343a1a3e0224c5b6e3, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 26 LetskeRun2
+    Clip: {fileID: 8300000, guid: 860fa8f7289ea8b49a8a03523c5a4fee, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 27 LetskeRun3
+    Clip: {fileID: 8300000, guid: 5ffcb99d99b9c0b42ac46dd9c66e2674, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 28 WallDestroy
+    Clip: {fileID: 8300000, guid: 5601ed7abb00acf47895024a99d5bdac, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 29 Kick1
+    Clip: {fileID: 8300000, guid: 7551db2945b0fbc4aa39105e00989de8, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 30 kick2
+    Clip: {fileID: 8300000, guid: 5abe69e17301bd44c960780157eda035, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 31 ImpactKick1
+    Clip: {fileID: 8300000, guid: 453aca50a212c504eb3e868e544bd760, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 32 ImpactKick2
+    Clip: {fileID: 8300000, guid: 43ead9fce4c1f684fbb00b695a3112fc, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 33 PalyerDeath
+    Clip: {fileID: 8300000, guid: 166abfa088d78194ebbdd3449f390ea7, type: 3}
+    Volume: 0.3
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 34 DaggerCanonShoot
+    Clip: {fileID: 8300000, guid: 6511fd52bdd698f469b5fe598aff1ef9, type: 3}
+    Volume: 0.3
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 35 ShurikenThrow
+    Clip: {fileID: 8300000, guid: 02ddde8dc7f94b4468ab9fb999fcaf6e, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 36 DaggerImpactWall
+    Clip: {fileID: 8300000, guid: ead604769856ffc4ca0e508a6b80b52a, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 37 PlayerHit1
+    Clip: {fileID: 8300000, guid: 36aef27955c89e84e8d65e180f8ae7e2, type: 3}
+    Volume: 0.8
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 38 PlayerHit2
+    Clip: {fileID: 8300000, guid: f982891c23c173a4a8f64b458f96d28b, type: 3}
+    Volume: 0.75
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 39 PlayerHit3
+    Clip: {fileID: 8300000, guid: 46c43458745d2d54cbb44645e4d2f3a8, type: 3}
+    Volume: 0.7
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 40 HealthGain
+    Clip: {fileID: 8300000, guid: 8317177e4a104344684d86959ecb050a, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 41 Heart
+    Clip: {fileID: 8300000, guid: 5074c8068f75d8948a04aa5848e27d85, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 42 LetskeImpact1
+    Clip: {fileID: 8300000, guid: 2d4beb22ab4ecd547978d1b82792ff3c, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 43 LetskeImpact2
+    Clip: {fileID: 8300000, guid: f90c2065fad359c419eb1e65684e15c7, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 44 LetskeImpact3
+    Clip: {fileID: 8300000, guid: ea25189c4d2590d488d7e5c4ca517685, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 45 Fall Enemy
+    Clip: {fileID: 8300000, guid: 15409561000b49c4980d7675eb428dda, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 46 Fall Wood
+    Clip: {fileID: 8300000, guid: d20a21c185126d94c89c68291823c122, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 47 Fly Enemy
+    Clip: {fileID: 8300000, guid: 62347e78f02eed4448c36a26e34db0ef, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 48 Fly Wood
+    Clip: {fileID: 8300000, guid: 6e85df496f8a00c42a30328817e00055, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 49 Katana Spin1
+    Clip: {fileID: 8300000, guid: c39751669fe948e4ebb4d4cff0aefc0b, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 50 Katana Spin2
+    Clip: {fileID: 8300000, guid: 39e4367996746e9459428d0c93542a24, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 51 Stomp
+    Clip: {fileID: 8300000, guid: e81788efda5f5a448a548ce99e8f7c3a, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 52 Impact Stomp
+    Clip: {fileID: 8300000, guid: b6358d6d184a34a448558155d7fd96a8, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 53 RestCombo
+    Clip: {fileID: 8300000, guid: 201e21209445dbe438d9472bd707862e, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 54 UI Enter
+    Clip: {fileID: 8300000, guid: 6d2528bf207b0444baf93b37b1ee1e3a, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 55 UI Select
+    Clip: {fileID: 8300000, guid: 9018d62167c706146a9b664e1060079e, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 56 UI Cancel
+    Clip: {fileID: 8300000, guid: 33e8668dd3d2d9c4cbf5ccc88852ab84, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 57 NinjaRun1
+    Clip: {fileID: 8300000, guid: ba6d5fce5332adc498b7c97150e47beb, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 58 NinjaRun2
+    Clip: {fileID: 8300000, guid: f9db7eb827a00fd4197e3d3d9db09ee3, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 59 NinjaRun3
+    Clip: {fileID: 8300000, guid: 7706d63001ae7a64296c1e4d4a333763, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 60 NinjaRun4
+    Clip: {fileID: 8300000, guid: 65f96fddd2a232d45b69ae5360085db8, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 61NinjaSwing1
+    Clip: {fileID: 8300000, guid: 19d989dda2053994d9fafe50acdd669e, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 62 NinjaSwing2
+    Clip: {fileID: 8300000, guid: 7f6f2ec07ed5ebe4c9d9f5be7b1d85fe, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 63 NinjaKatanaImpact
+    Clip: {fileID: 8300000, guid: 29dc56551d02836419fbfcc73e968ec5, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 64 NinjaKatanaReflect
+    Clip: {fileID: 8300000, guid: 12d06bde77971c24fa56172a9934e590, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 65 LetskeFall
+    Clip: {fileID: 8300000, guid: 29dc56551d02836419fbfcc73e968ec5, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 66 MusicTitle
+    Clip: {fileID: 8300000, guid: 5b12f2fc8c8a9d24bad4e6f1d870574c, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 67 MusicIntro
+    Clip: {fileID: 8300000, guid: 9d1eafe491e6d314baeb8be72532d91f, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 68 MusicInGame
+    Clip: {fileID: 8300000, guid: 61b2259b6a2a0c549abcb67d8bef5120, type: 3}
+    Volume: 0.3
+    Pitch: 1
+    Loop: 1
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 69 MusicDeath
+    Clip: {fileID: 8300000, guid: 3888af76109291743ab07fc40d6feab5, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}
+  - Name: 70 MusicWin
+    Clip: {fileID: 8300000, guid: 682935cfd4c80d94d87250618daf9c89, type: 3}
+    Volume: 0.4
+    Pitch: 1
+    Loop: 0
+    PlayOnAwake: 0
+    Source: {fileID: 0}

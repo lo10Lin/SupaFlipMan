@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Box
+  - Door
+  - Buttom
+  - FollowZone
+  - Enemy
+  - SwitchPower
+  - GoTo
+  - Wall
+  - Water
+  - Letske
+  - Ground
+  - BarrelCircle
+  - BarrelRectangle
+  - FxTemporaire
+  - RedKatana
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Ground
+  - Buttom
+  - Enemy
+  - EnemyHitbox
+  - PlayerHitbox
+  - EnemyTriggerZone
+  - Switch
+  - Box
+  - Weapon
+  - SlideHitbox
+  - Wall
+  - KatanaHitBox
+  - Acid
+  - ExplosiveBarrel
+  - Explosion
+  - Projectile
+  - AllyProjectile
+  - Obstacle
+  - NinjaKatana
+  - Barrel
+  - DeflectTrigger
+  - EnemiesVisuals
+  - DeflectHitbox
+  - WinZone
+  - AcidVisuals
+  - ObjectsVisuals
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
